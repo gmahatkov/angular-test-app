@@ -1,0 +1,5 @@
+# exclude node_modules and idea project
+node_modules/*
+.idea/*
+
+public/dist/*

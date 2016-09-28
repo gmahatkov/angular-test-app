@@ -1,0 +1,57 @@
+{
+  "name": "angular-test-app",
+  "version": "1.0.0",
+  "description": "test app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmahatkov/angular-test-app.git"
+  },
+  "author": "Greg Mahatkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmahatkov/angular-test-app/issues"
+  },
+  "homepage": "https://github.com/gmahatkov/angular-test-app#readme",
+  "dependencies": {
+    "angular-resource": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.21",
+    "babel-plugin-object-assign": "^1.2.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-stage-0": "^6.1.18",
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1",
+    "concurrently": "^2.0.0",
+    "express": "^4.13.4",
+    "gulp": "^3.9.0",
+    "gulp-angular-templatecache": "^1.8.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-gzip": "^1.2.0",
+    "gulp-html-replace": "^1.5.5",
+    "gulp-htmlmin": "^1.2.0",
+    "gulp-if": "^2.0.0",
+    "gulp-less": "^3.0.5",
+    "gulp-minify-css": "^1.2.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "^3.0.7",
+    "gulp-watch-less": "^1.0.1",
+    "lite-server": "^2.2.0",
+    "serve-favicon": "^2.3.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.6.1"
+  }
+}
