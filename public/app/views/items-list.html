@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-xs-6" ng-repeat="item in items">
+        <!--{{ item.images.thumbnail.url }}-->
+        <a ui-sref="item-detail({media_id: item.id})">
+            <img ng-src="{{ item.images.thumbnail.url }}" alt="">
+        </a>
+    </div>
+</div>
